@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "794895889629",
+    "project_id": "recovery-6844e",
+    "storage_bucket": "recovery-6844e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794895889629:android:04f3c879f5ae6c1d329734",
+        "android_client_info": {
+          "package_name": "com.example.recovery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794895889629-l66upv7lr0h59gmfgva3v51kpgps8pl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recovery",
+            "certificate_hash": "8e41a64747137f79dbc730e937fccdc4b713fc0e"
+          }
+        },
+        {
+          "client_id": "794895889629-sa9ge9m9fj2g7stt1snftbdqm6665g68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzul4bo1KlUG6NAEnk_4AUcALFy5O6dlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794895889629-sa9ge9m9fj2g7stt1snftbdqm6665g68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

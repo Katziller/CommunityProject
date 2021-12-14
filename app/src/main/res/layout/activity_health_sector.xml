@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF9800"
     android:padding="20dp"
     tools:context="com.HealthSector"
     tools:ignore="SpeakableTextPresentCheck">
@@ -27,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Recovery Health Sector"
+            android:text="@string/recovery_health_sector"
             android:textAlignment="center"
             android:textColor="#000"
             android:textSize="20sp"
@@ -43,23 +44,67 @@
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:theme="@style/TextInputLayoutStyle"
-                app:boxStrokeColor="#000"
-                app:hintTextAppearance="@color/purple_200">
+                android:layout_height="match_parent"
+                android:hint="@string/enter_your_email">
 
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/loginEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_mail" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/loginEmail"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/ic_mail"
-                android:hint="Enter your email">
+                android:layout_height="match_parent">
 
-            </com.google.android.material.textfield.TextInputEditText>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/ic_lock_lock"
+                    android:hint="@string/enter_password"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/logIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="Sign In Now"
+                    android:textAllCaps="false"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/loginPage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/dont_have_an_account"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#5C6BC0"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/admin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/admin_login"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#03A9F4"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 
