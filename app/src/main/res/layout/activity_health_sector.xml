@@ -74,6 +74,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#536DFE"
                     android:text="Sign In Now"
                     android:textAllCaps="false"
                     android:textColor="#fff" />

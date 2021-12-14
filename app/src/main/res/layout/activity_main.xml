@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BFA5"
+    android:background="#FBE9E7"
     android:padding="20dp"
     tools:context=".MainActivity">
 
@@ -39,6 +39,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="50dp"
             android:layout_marginRight="20dp"
+            android:background="#877028"
             android:backgroundTint="#FFAB00"
             android:gravity="center"
             android:text="@string/health_sector"
@@ -52,6 +53,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="50dp"
             android:layout_marginRight="20dp"
+            android:background="#491A1A"
             android:backgroundTint="#FFAB00"
             android:text="@string/eduflow" />
 
@@ -62,8 +64,19 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="50dp"
             android:layout_marginRight="20dp"
+            android:background="#BA5050"
             android:backgroundTint="#FFAB00"
             android:text="@string/fintech_space" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/Recovery"
+        app:srcCompat="@drawable/ic_r"
+        tools:layout_editor_absoluteX="118dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
