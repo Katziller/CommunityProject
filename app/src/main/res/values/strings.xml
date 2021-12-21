@@ -13,4 +13,41 @@
     <string name="sign_in_now">Sign In Now</string>
     <string name="dont_have_an_account">Dont have an account</string>
     <string name="admin_login">Admin login</string>
+    <string name="select_one">Select one</string>
+    <string name="patient_registration">Patient Registration</string>
+    <string name="doctor_registration">Doctor Registration</string>
+    <string name="dont_have_an_account_register">Dont have an account? Register</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="student_registration">Student Registration</string>
+    <string name="teacher_registration">Teacher Registration</string>
+    <string name="enter_your_full_name">Enter your full name</string>
+    <string name="enter_your_id_number">Enter your ID number</string>
+    <string name="enter_your_phone_number">Enter_your_phone_number</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="register_now">Register Now</string>
+    <string name="have_an_account_login">Have an account? Login!</string>
+    <string name="id">ID</string>
+    <string-array name="timeframes">
+        <item>Select your availability time</item>
+        <item>7-9 AM</item>
+        <item>9-11 AM</item>
+        <item>11-1 AM</item>
+        <item>2-4 AM</item>
+        <item>4-6 AM</item>
+    </string-array>
+
+    <string-array name="departments">
+        <item>Select department</item>
+        <item>Dentistry</item>
+        <item>Surgery</item>
+    </string-array>
+
+    <string-array name="specialisation">
+        <item>Select specialisation</item>
+        <item>General</item>
+        <item>Periodontist</item>
+    </string-array>
 </resources>

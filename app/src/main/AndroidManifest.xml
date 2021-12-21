@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recovery">
         <activity
+            android:name="com.example.DoctorRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.PatientRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.RegistrationActivity"
+            android:exported="false" />
+        <activity
             android:name="com.Finance"
             android:exported="false" />
         <activity
