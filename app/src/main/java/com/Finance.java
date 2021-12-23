@@ -19,16 +19,6 @@ public class Finance extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_finance );
 
-        loginPageQuestion = findViewById ( R.id.loginPageQuestion );
-
-        loginPageQuestion.setOnClickListener ( new View.OnClickListener () {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent (Finance.this, RegistrationActivity.class);
-                startActivity ( intent );
-            }
-        } );
-
     }
 
 }

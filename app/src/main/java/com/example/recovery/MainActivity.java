@@ -7,12 +7,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.Education;
 import com.Finance;
 import com.HealthSector;
 
 public class MainActivity extends AppCompatActivity {
+
+    private TextView back;
+    private Button education, finance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

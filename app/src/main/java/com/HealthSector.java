@@ -21,12 +21,9 @@ public class HealthSector extends AppCompatActivity {
 
         loginPageQuestion = findViewById ( R.id.loginPageQuestion );
 
-        loginPageQuestion.setOnClickListener ( new View.OnClickListener () {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent (HealthSector.this, RegistrationActivity.class);
-                startActivity ( intent );
-            }
+        loginPageQuestion.setOnClickListener ( v -> {
+            Intent intent = new Intent (HealthSector.this, RegistrationActivity.class);
+            startActivity ( intent );
         } );
     }
 }

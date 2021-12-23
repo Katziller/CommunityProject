@@ -19,16 +19,6 @@ public class Education extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_education );
 
-
-        loginPageQuestion = findViewById ( R.id.loginPageQuestion );
-
-        loginPageQuestion.setOnClickListener ( new View.OnClickListener () {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent (Education.this, RegistrationActivity.class);
-                startActivity ( intent );
-            }
-        } );
     }
 
 }

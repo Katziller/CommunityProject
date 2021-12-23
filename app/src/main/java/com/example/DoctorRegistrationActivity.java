@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.HealthSector;
 import com.example.recovery.MainActivity;
 import com.example.recovery.R;
 
@@ -21,7 +22,7 @@ public class DoctorRegistrationActivity extends AppCompatActivity {
 
         regPageQuestion = findViewById ( R.id.regPageQuestion );
         regPageQuestion.setOnClickListener ( view -> {
-            Intent intent = new Intent (DoctorRegistrationActivity.this, MainActivity.class );
+            Intent intent = new Intent (DoctorRegistrationActivity.this, HealthSector.class );
             startActivity ( intent );
         } );
     }
